@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.capitalone.inventory</groupId>
 	<artifactId>inventoryService</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>inventoryService</name>
 	<description>Inventory Service</description>
 	<properties>
@@ -34,9 +34,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<scope>runtime</scope>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.2.14</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
